@@ -1,0 +1,259 @@
+*{
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+}
+.nav{
+    height: 60px;
+    background-color: rgb(20, 19, 19);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+.nav-logo{
+height: 50px;
+width: 120px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+
+.logo{
+    background-image:url("image/Main_logo.png");
+    background-size: cover;
+    height: 50px;
+    width: 100%;
+}
+.border{
+    border: 1px solid transparent;
+}
+.border:hover{
+    border: 1px solid white;
+}
+/*** nav box2   ***/
+
+.add-f{
+    color: #ccc;
+    font-size: 0.85rem;
+    margin-left: 15px;
+    margin-bottom: 5px;
+}
+.add-s{
+    color: white;
+    font-size: 1rem;
+    margin-left: 5px;
+}
+.add-icon{
+    display: flex;
+    align-items: center;
+}
+/** serachBar **/
+
+.nav-search{
+display:  flex;
+border-radius: 4px;
+width: 500px;
+height: 40px;
+justify-content: space-evenly;
+
+}
+.nav-search:hover{
+    border: 1px solid orange;
+
+}
+.search-icon{
+ width: 45px;
+ height: 40px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ font-size: 1.3rem;
+ background-color: rgb(206, 193, 14);
+ border-top-right-radius: 4px;
+ border-bottom-right-radius: 4px;
+ color: black;
+}
+.search-s{
+  border: none;
+  background-color: #ccc;
+  border-top-left-radius:4px;
+  border-bottom-left-radius: 4px;
+}
+.search-p{
+font-size: 1rem;
+width: 100%;
+border: none;
+}
+/** auth **/
+span{
+    font-size: 0.7rem;
+}
+.Auth-s{
+    font-size: 0.9rem;
+    font-weight: 400;
+}
+.Auth{
+    justify-content: center;
+}
+
+/** order **/
+span1{
+    font-size: 1rem;
+}
+/** cart **/
+
+.cart i{
+    font-size: 25px;
+}
+.cart{
+    font-size: 0.9rem;
+    font-weight: 400;
+}
+
+/**** panel ****/
+.panel{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(104, 102, 102);
+    color: white;
+    height: 40px;
+    font-size: 0.9rem;
+}
+.panel-ops p{
+    display: inline;
+    margin-left: 15px;
+    
+}
+.panel-ops{
+    width: 75%;
+    font-size: 0.9rem;
+}
+.panel-deals{
+    font-size: 0.95rem;
+    font-weight: 400;
+}
+
+
+/**** Hero ****/
+
+.hero-section{
+    height: 300px;
+    background-size: cover;
+    background-image: url("image/hero_bg_1.jpg");
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.hero-mssg{
+    height: 30px;
+    background-color: white;
+    color: black;
+    font-size: 0.9rem;
+    width: 55%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+
+}
+.hero-mssg a{
+    color: rgb(95, 95, 216);
+}
+
+/**** shop ****/
+
+.shop-section{
+   background-color:#ccc; 
+   
+   display: flex;
+   justify-content: space-evenly;
+   flex-wrap: wrap;
+
+}
+.box{
+    /*border: 1px solid black;*/
+    height: auto;
+    width: 20%;
+    background-color: rgb(236, 250, 245);
+    margin-top: 15px;
+    padding: 3px 7px 15px;
+    font-size: small;
+    
+}
+.box-img{
+    height: 250px;
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    
+}
+.box-content{
+    margin: 4px;
+
+}
+
+
+.box-content h2{
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+/** footer **/
+.foot-panel1{
+height: 140px;
+width: 100%;
+margin-top: 0.5rem;
+background-color: rgb(19, 19, 17);
+color: white;
+}
+.w{
+    /*display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4px;*/
+    text-align: center;
+    padding: 0.5rem;
+}
+.banner{
+    height: 100px;
+    background-size:15rem;
+    padding: 0px 3px 4px;
+        
+}
+
+.foot-panel2{
+    background-color: #ccc;
+    display: flex;
+    justify-content: space-evenly;
+}
+ul p{
+    margin-top: 10px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+ul {
+    margin-top: 20px;
+}
+
+.foot-panel3{
+    background-color: #bdbcbc;
+    height: 5rem;
+    color: black;
+    
+}
+.page{
+    padding: 10px;
+    text-align: center;
+    font-size: small;
+}
+
+.copy{
+    margin-top: 0.8rem;
+    text-align: center;
+    font-size: small;
+}
+
+
